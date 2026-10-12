@@ -1,0 +1,108 @@
+{
+  "viewer_id": "V-0222",
+  "is_holdout": false,
+  "profile_snapshot": {
+    "viewer_id": "V-0222",
+    "sign_up_date": "2026-08-27",
+    "subscription_status": "free",
+    "preferred_dialect": "d5",
+    "language": "hindi",
+    "push_consent": true,
+    "whatsapp_consent": false,
+    "is_holdout": false,
+    "snapshot_export_time": "2026-09-10T04:00:00Z",
+    "device_timezone_offset_hours": 5.5
+  },
+  "known_facts": {
+    "active_dialect": {
+      "key": "active_dialect",
+      "value": "d1",
+      "source": "app_setting",
+      "recorded_at": "2026-09-12T11:39:57Z",
+      "freshness_s": 0.0,
+      "confidence": 0.75
+    },
+    "subscription_status": {
+      "key": "subscription_status",
+      "value": "free",
+      "source": "profile_snapshot",
+      "recorded_at": "2026-09-12T11:39:57Z",
+      "freshness_s": 200397.0,
+      "confidence": 0.65
+    },
+    "event_age": {
+      "key": "event_age",
+      "value": 2.0,
+      "source": "event_stream",
+      "recorded_at": "2026-09-12T11:39:57Z",
+      "freshness_s": 0.0,
+      "confidence": 1.0
+    },
+    "push_consent": {
+      "key": "push_consent",
+      "value": true,
+      "source": "profile_snapshot",
+      "recorded_at": "2026-09-10T04:00:00Z",
+      "freshness_s": 86400.0,
+      "confidence": 0.85
+    },
+    "whatsapp_consent": {
+      "key": "whatsapp_consent",
+      "value": false,
+      "source": "profile_snapshot",
+      "recorded_at": "2026-09-10T04:00:00Z",
+      "freshness_s": 86400.0,
+      "confidence": 0.85
+    }
+  },
+  "active_goal": {
+    "id": "first_paid_plan_7d",
+    "deadline": "2026-09-19T11:39:57+00:00Z"
+  },
+  "active_plan": "HOME_PAGE on d1",
+  "history_decisions": [
+    "D-2047BF",
+    "D-648466"
+  ],
+  "history_actions": [
+    {
+      "action_id": "ACT-c9c86a",
+      "decision_id": "D-2047BF",
+      "action_type": "PUSH_NOTIFICATION",
+      "dialect": "d1",
+      "content": [
+        "template:push_offer"
+      ],
+      "executed_at": "2026-09-12T11:39:57Z"
+    },
+    {
+      "action_id": "ACT-c597bd",
+      "decision_id": "D-648466",
+      "action_type": "HOME_PAGE",
+      "dialect": "d1",
+      "content": [
+        "title:T0001",
+        "title:T0002",
+        "title:T0003"
+      ],
+      "executed_at": "2026-09-12T11:39:57Z"
+    }
+  ],
+  "history_outcomes": [
+    {
+      "judgment_id": "JUDGE-7166ad",
+      "decision_id": "D-648466",
+      "viewer_id": "V-0222",
+      "goal_id": "first_paid_plan_7d",
+      "status": "PENDING",
+      "evaluated_at": "2026-09-16T11:39:57+00:00Z",
+      "deadline": "2026-09-19T11:39:57+00:00Z",
+      "attributable_signals": [],
+      "explanation": "Goal active; deadline 2026-09-19T11:39:57+00:00Z has not yet passed.",
+      "learning_added": ""
+    }
+  ],
+  "last_message_sent_at": "2026-09-12T11:39:57Z",
+  "learnings": [],
+  "last_seen": null
+}

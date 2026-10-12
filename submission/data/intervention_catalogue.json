@@ -1,0 +1,67 @@
+{
+  "HOME_PAGE": {
+    "description": "Curated row or hero carousel on home page.",
+    "constraints": {
+      "min_titles_required": 3,
+      "must_match_active_dialect": true,
+      "available_only": true
+    }
+  },
+  "PUSH_NOTIFICATION": {
+    "description": "App push notification to mobile lock screen.",
+    "constraints": {
+      "requires_consent": true,
+      "quiet_hours_local": [
+        22,
+        8
+      ],
+      "max_per_day": 1
+    },
+    "templates": [
+      {
+        "id": "push_resume",
+        "text": "Aapka episode intezaar kar raha hai. Abhi dekhein!"
+      },
+      {
+        "id": "push_new_ep",
+        "text": "Naya episode live ho chuka hai aapki bhasha mein!"
+      },
+      {
+        "id": "push_offer",
+        "text": "Aaj ke liye vishesh offer: shuru karein sirf \u20b949 mein!"
+      }
+    ]
+  },
+  "WHATSAPP": {
+    "description": "WhatsApp conversational or template message.",
+    "constraints": {
+      "requires_whatsapp_consent": true,
+      "quiet_hours_local": [
+        22,
+        8
+      ],
+      "max_per_day": 1
+    },
+    "templates": [
+      {
+        "id": "wa_trending",
+        "text": "Namaste! Ye blockbuster show aapke ilaqe mein dhoom macha raha hai."
+      },
+      {
+        "id": "wa_pass",
+        "text": "Aapka weekend pass tayyar hai. Tap karein aur shuru karein."
+      }
+    ]
+  },
+  "IN_APP_MESSAGE": {
+    "description": "In-app bottom sheet or modal banner during session.",
+    "constraints": {
+      "max_per_day": 1,
+      "requires_active_session": true
+    }
+  },
+  "DO_NOTHING": {
+    "description": "Deliberate abstention when no confident intervention or constraints violated.",
+    "constraints": {}
+  }
+}

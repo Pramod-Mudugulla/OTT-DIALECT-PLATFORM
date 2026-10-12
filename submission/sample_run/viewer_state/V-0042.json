@@ -1,0 +1,159 @@
+{
+  "viewer_id": "V-0042",
+  "is_holdout": false,
+  "profile_snapshot": {
+    "viewer_id": "V-0042",
+    "sign_up_date": "2026-07-05",
+    "subscription_status": "free",
+    "preferred_dialect": "d6",
+    "language": "hindi",
+    "push_consent": true,
+    "whatsapp_consent": true,
+    "is_holdout": false,
+    "snapshot_export_time": "2026-09-10T04:00:00Z",
+    "device_timezone_offset_hours": 5.5,
+    "has_profile_conflict": true,
+    "alternate_profile": {
+      "viewer_id": "V-0042",
+      "sign_up_date": "2026-08-15",
+      "subscription_status": "free_trial",
+      "preferred_dialect": "d2",
+      "language": "hindi",
+      "push_consent": true,
+      "whatsapp_consent": false,
+      "is_holdout": false,
+      "snapshot_export_time": "2026-09-10T04:05:00Z",
+      "device_timezone_offset_hours": 5.5
+    }
+  },
+  "known_facts": {
+    "active_dialect": {
+      "key": "active_dialect",
+      "value": "d2",
+      "source": "app_setting",
+      "recorded_at": "2026-09-12T12:03:59Z",
+      "freshness_s": 0.0,
+      "confidence": 0.75
+    },
+    "subscription_status": {
+      "key": "subscription_status",
+      "value": "free",
+      "source": "profile_snapshot",
+      "recorded_at": "2026-09-12T12:03:59Z",
+      "freshness_s": 201839.0,
+      "confidence": 0.65
+    },
+    "event_age": {
+      "key": "event_age",
+      "value": 3.0,
+      "source": "event_stream",
+      "recorded_at": "2026-09-12T12:03:59Z",
+      "freshness_s": 0.0,
+      "confidence": 1.0
+    },
+    "push_consent": {
+      "key": "push_consent",
+      "value": true,
+      "source": "profile_snapshot",
+      "recorded_at": "2026-09-10T04:00:00Z",
+      "freshness_s": 86400.0,
+      "confidence": 0.85
+    },
+    "whatsapp_consent": {
+      "key": "whatsapp_consent",
+      "value": true,
+      "source": "profile_snapshot",
+      "recorded_at": "2026-09-10T04:00:00Z",
+      "freshness_s": 86400.0,
+      "confidence": 0.85
+    }
+  },
+  "active_goal": {
+    "id": "first_paid_plan_7d",
+    "deadline": "2026-09-19T12:03:59+00:00Z"
+  },
+  "active_plan": "HOME_PAGE on d2",
+  "history_decisions": [
+    "D-D96961",
+    "D-B5EF5D",
+    "D-39521B",
+    "D-07ECBD"
+  ],
+  "history_actions": [
+    {
+      "action_id": "ACT-290c9b",
+      "decision_id": "D-D96961",
+      "action_type": "PUSH_NOTIFICATION",
+      "dialect": "d3",
+      "content": [
+        "template:push_offer"
+      ],
+      "executed_at": "2026-09-12T10:28:23Z"
+    },
+    {
+      "action_id": "ACT-8bdd70",
+      "decision_id": "D-B5EF5D",
+      "action_type": "HOME_PAGE",
+      "dialect": "d2",
+      "content": [
+        "title:T0006",
+        "title:T0007",
+        "title:T0012"
+      ],
+      "executed_at": "2026-09-12T12:03:59Z"
+    },
+    {
+      "action_id": "ACT-804415",
+      "decision_id": "D-39521B",
+      "action_type": "HOME_PAGE",
+      "dialect": "d3",
+      "content": [
+        "title:T0001",
+        "title:T0004",
+        "title:T0010"
+      ],
+      "executed_at": "2026-09-12T10:28:23Z"
+    },
+    {
+      "action_id": "ACT-4fa5b4",
+      "decision_id": "D-07ECBD",
+      "action_type": "HOME_PAGE",
+      "dialect": "d2",
+      "content": [
+        "title:T0006",
+        "title:T0007",
+        "title:T0012"
+      ],
+      "executed_at": "2026-09-12T12:03:59Z"
+    }
+  ],
+  "history_outcomes": [
+    {
+      "judgment_id": "JUDGE-c6adf7",
+      "decision_id": "D-39521B",
+      "viewer_id": "V-0042",
+      "goal_id": "first_paid_plan_7d",
+      "status": "PENDING",
+      "evaluated_at": "2026-09-16T10:28:23+00:00Z",
+      "deadline": "2026-09-19T10:28:23+00:00Z",
+      "attributable_signals": [],
+      "explanation": "Goal active; deadline 2026-09-19T10:28:23+00:00Z has not yet passed.",
+      "learning_added": ""
+    },
+    {
+      "judgment_id": "JUDGE-cfce62",
+      "decision_id": "D-07ECBD",
+      "viewer_id": "V-0042",
+      "goal_id": "first_paid_plan_7d",
+      "status": "PENDING",
+      "evaluated_at": "2026-09-16T12:03:59+00:00Z",
+      "deadline": "2026-09-19T12:03:59+00:00Z",
+      "attributable_signals": [],
+      "explanation": "Goal active; deadline 2026-09-19T12:03:59+00:00Z has not yet passed.",
+      "learning_added": ""
+    }
+  ],
+  "last_message_sent_at": "2026-09-12T10:28:23Z",
+  "learnings": [],
+  "last_seen": null
+}

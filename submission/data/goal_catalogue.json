@@ -1,0 +1,122 @@
+[
+  {
+    "goal_id": "first_full_episode_3d",
+    "name": "First Full Episode Completion",
+    "description": "Guide new or early viewer to complete their first full episode within 3 days.",
+    "deadline_hours": 72,
+    "success_signal_type": "episode_completed",
+    "is_underspecified": false,
+    "missing_signal": false,
+    "version": 1
+  },
+  {
+    "goal_id": "first_paid_plan_7d",
+    "name": "First Paid Subscription",
+    "description": "Convert free or trial viewer into a paid subscriber within 7 days.",
+    "deadline_hours": 168,
+    "success_signal_type": "purchase_plan",
+    "is_underspecified": false,
+    "missing_signal": false,
+    "version": 1
+  },
+  {
+    "goal_id": "resume_dropped_series_2d",
+    "name": "Resume Dropped Series",
+    "description": "Viewer started an episode/series and paused >24h; re-engage within 48h.",
+    "deadline_hours": 48,
+    "success_signal_type": "play_resumed",
+    "is_underspecified": false,
+    "missing_signal": false,
+    "version": 1
+  },
+  {
+    "goal_id": "explore_second_genre_5d",
+    "name": "Genre Breadth Expansion",
+    "description": "Viewer has only watched one genre; encourage viewing a second genre within 5 days.",
+    "deadline_hours": 120,
+    "success_signal_type": "play_new_genre",
+    "is_underspecified": false,
+    "missing_signal": false,
+    "version": 1
+  },
+  {
+    "goal_id": "micro_drama_binge_1d",
+    "name": "Micro-Drama Habit Loop",
+    "description": "Viewer consumes 3+ micro-episodes within 24 hours.",
+    "deadline_hours": 24,
+    "success_signal_type": "micro_episodes_completed_3",
+    "is_underspecified": false,
+    "missing_signal": false,
+    "version": 1
+  },
+  {
+    "goal_id": "weekend_family_watch_2d",
+    "name": "Weekend Family Movie",
+    "description": "Engage family or movie titles over weekend sessions.",
+    "deadline_hours": 48,
+    "success_signal_type": "family_film_completed",
+    "is_underspecified": false,
+    "missing_signal": false,
+    "version": 1
+  },
+  {
+    "goal_id": "reactivate_dormant_viewer_7d",
+    "name": "Dormant Viewer Reactivation",
+    "description": "Viewer has been inactive >14 days; bring them back to watch >10 minutes.",
+    "deadline_hours": 168,
+    "success_signal_type": "play_session_10m",
+    "is_underspecified": false,
+    "missing_signal": false,
+    "version": 1
+  },
+  {
+    "goal_id": "trial_to_annual_upgrade_14d",
+    "name": "Annual Tier Upgrade",
+    "description": "Active monthly or trial user upgrades to high-LTV annual plan within 14 days.",
+    "deadline_hours": 336,
+    "success_signal_type": "purchase_annual",
+    "is_underspecified": false,
+    "missing_signal": false,
+    "version": 1
+  },
+  {
+    "goal_id": "complete_season_finale_4d",
+    "name": "Finish Series Finale",
+    "description": "Viewer at >80% completion finishes finale within 4 days.",
+    "deadline_hours": 96,
+    "success_signal_type": "season_finale_completed",
+    "is_underspecified": false,
+    "missing_signal": false,
+    "version": 1
+  },
+  {
+    "goal_id": "dialect_crossover_discovery_7d",
+    "name": "Dialect Crossover Discovery",
+    "description": "Watch content from an adjacent dialect region. (UNDERSPECIFIED: neighboring dialects not defined in rule v1).",
+    "deadline_hours": 168,
+    "success_signal_type": "crossover_play",
+    "is_underspecified": true,
+    "missing_signal": false,
+    "version": 1
+  },
+  {
+    "goal_id": "social_share_referral_3d",
+    "name": "Social Clip Sharing",
+    "description": "Viewer shares a clip via WhatsApp/social channel. (MISSING SIGNAL: no social_share event exists in raw app event stream!).",
+    "deadline_hours": 72,
+    "success_signal_type": "social_share_sent",
+    "is_underspecified": false,
+    "missing_signal": true,
+    "version": 1
+  },
+  {
+    "goal_id": "offline_download_prep_1d",
+    "name": "Commute Offline Download",
+    "description": "Download 3 episodes for offline playback. (UNDERSPECIFIED: connection speed criterion unspecified in v1).",
+    "deadline_hours": 24,
+    "success_signal_type": "offline_download_completed",
+    "is_underspecified": true,
+    "missing_signal": false,
+    "version": 1
+  }
+]
