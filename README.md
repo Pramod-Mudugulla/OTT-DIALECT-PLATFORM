@@ -174,7 +174,7 @@ A major requirement of this challenge is explaining why naive comparisons (Serve
 ├── pytest.ini                     # Test configuration
 ├── run_replay.py                  # Top-level one-command runner script
 └── submission/
-    ├── README.md                  # Submission overview & interview discussion Q&A
+    ├── README.md                  # Submission overview
     ├── ARCHITECTURE.md            # Deep dive on 7 architectural pillars
     ├── AI_COLLABORATION.md        # AI collaboration log & rejected suggestions
     ├── KNOWN_LIMITATIONS.md       # Scoped trade-offs & production roadmap
